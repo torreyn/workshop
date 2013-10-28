@@ -18,7 +18,7 @@ var app = {
         this.store = new MemoryStore(function() {
             self.renderHomeView();
         });
-    }
+    },
 
     showAlert: function (message, title) {
         if (navigator.notification) {
